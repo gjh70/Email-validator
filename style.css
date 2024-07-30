@@ -1,0 +1,104 @@
+*{
+    font-family: 'Segoe UI';
+    font-weight:500;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 19px 12px;
+}
+ ul{
+    display:flex;
+ }
+
+ ul li{
+    list-style: none;
+    padding: 0 13px;
+    font-weight: bold;
+ }
+
+ ul li a{
+    color: white;
+    text-decoration: none;
+ }
+
+ ul>li> a:hover{
+color:grey;
+ }
+
+ footer{
+    background-color: black;
+    color:white;
+    display:flex;
+    padding:12px;
+    justify-content: center;
+    align-items: center;
+    font-size:10px;
+
+ }
+
+ main{
+    min-height: 100vh;
+    padding:2px;
+ }
+
+ h1{
+    padding: 12px;
+    font-weight:700;
+ }
+
+ .btn{
+    background-color: black;
+    color:white;
+    padding:9px 12px;
+    border:1px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 160px;
+ }
+
+
+
+ input[type='text']{
+    min-width:23vw;
+padding: 3px 12px ;
+border:2px solid black;
+border-radius: 4px; 
+font-size: 20px ;
+ }
+.container{
+    background-color: azure;
+    max-width: 80vw; 
+    margin:auto;
+    padding:9px 15px;
+   margin-left: 200px;
+
+}
+.logo{
+    font-family: sans-serif;
+    font-weight:bold;
+    color:bisque;
+}
+
+@media only screen and (max-width:600px) {
+   .container{
+    font-size: 12px;
+   }
+   nav{
+    flex-direction: column;
+   }
+   .logo{
+    padding:6px;
+   }
+   .logo span{
+    font-size: 20px;
+   }
+}
+
+#resultCont div::first-letter {
+    text-transform: uppercase;
+}
